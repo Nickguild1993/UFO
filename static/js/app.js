@@ -7,11 +7,12 @@ const tableData = data;
 // in the HTML
 var tbody = d3.select("tbody");
 
-// function example 
+// function example ****
+
 // Takes two numbers and adds them
-function addition(a, b) {
-    return a + b;
-  }
+// function addition(a, b) {
+//     return a + b;
+//   }
 // say you want 4, 5 as values.
 // you'd do: console.log(addition(4,5));
 // or: addition(4,5); 
@@ -24,8 +25,9 @@ function addition(a, b) {
 // will return: "Hello there!"
 
 // convert to an arrow function
-addition = (a,b) => a+b;
-addition(4,4);
+
+// addition = (a,b) => a+b;
+// addition(4,4);
 // would return 8.
 
 // Syntax for arrow functions.
